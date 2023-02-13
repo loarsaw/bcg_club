@@ -4,7 +4,6 @@ import Slide from "./Slide";
 import { sliderContent } from "../../mock/slider";
 import { NextArrow, PrevArrow } from "./Arrows";
 import { HiOutlineChevronRight, HiOutlineChevronLeft } from "react-icons/hi";
-
 const Carousel = () => {
   const settings = {
     dots: true,

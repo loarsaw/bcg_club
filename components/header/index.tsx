@@ -3,6 +3,7 @@ import Language from "./language/Language";
 import Logo from "./Logo";
 import Menu from "./menu";
 import SearchBar from "./SearchBar";
+import Settings from "./Settings";
 import Theme from "./theme/Theme";
 type Props = {};
 
@@ -15,7 +16,7 @@ const index = (props: Props) => {
           <div className="md:hidden">
             <Logo />
           </div>
-          {/* <p>Settings</p> */}
+          <Settings />
           {/* <div className="hidden md:flex md:items-center md:justify-between">
             <Language />
             <Theme />

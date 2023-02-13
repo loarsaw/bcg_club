@@ -1,8 +1,10 @@
-import Head from "next/head";
-import Image from "next/image";
-import { Inter } from "@next/font/google";
 
+import Carousel from "@/components/carousel";
 
 export default function Home() {
-  return <h1>hi</h1>;
+  return (
+    <div>
+      <Carousel />
+    </div>
+  );
 }

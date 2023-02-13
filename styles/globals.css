@@ -4,15 +4,11 @@
 
 @layer base {
   :root {
-    --color-primary: 167, 27, 74;
-    /* #A71B4A*/
-    --color-secondary: 74, 76, 90;
-    /* #4a4c5a*/
+    --color-primary: 167, 27, 74; /* #A71B4A*/
+    --color-secondary: 74, 76, 90; /* #4a4c5a*/
 
-    --color-bg: 243, 244, 245;
-    /* #f3f4f5*/
-    --color-bg-side: 252, 251, 255;
-    /* #fcfdff*/
+    --color-bg: 243, 244, 245; /* #f3f4f5*/
+    --color-bg-side: 252, 251, 255; /* #fcfdff*/
     --color-bg-black: 0, 0, 0;
     --digital-category-bgc: #ade8f4;
     --fashion-category-bgc: #ffddd2;
@@ -22,20 +18,15 @@
     --toy-category-bgc: #cce3de;
     --stationery-category-bgc: #fbb13c;
 
-    --color-text-base: 66, 71, 80;
-    /* #424750*/
-    --color-text-muted: 107, 114, 128;
-    /*#6b7280*/
-    --color-text-side: 255, 231, 231;
-    /*#fff*/
+    --color-text-base: 66, 71, 80; /* #424750*/
+    --color-text-muted: 107, 114, 128; /*#6b7280*/
+    --color-text-side: 255, 231, 231; /*#fff*/
     --font-family: iranyekan, "IRANSans", "Tahoma";
   }
 
   .dark {
-    --color-bg: 15, 23, 42;
-    /* #0f172a*/
-    --color-bg-side: 30, 41, 59;
-    /* #1e293b*/
+    --color-bg: 15, 23, 42; /* #0f172a*/
+    --color-bg-side: 30, 41, 59; /* #1e293b*/
     --digital-category-bgc: #0d4c76;
     --fashion-category-bgc: #892a19;
     --beauty-category-bgc: #6d305f;
@@ -44,12 +35,9 @@
     --toy-category-bgc: #6d3d4b;
     --stationery-category-bgc: #6a4202;
 
-    --color-text-base: 226, 232, 240;
-    /*#e2e8f0*/
-    --color-text-muted: 140, 154, 175;
-    /*#8c9aaf*/
-    --color-text-side: 255, 231, 231;
-    /*#fff*/
+    --color-text-base: 226, 232, 240; /*#e2e8f0*/
+    --color-text-muted: 140, 154, 175; /*#8c9aaf*/
+    --color-text-side: 255, 231, 231; /*#fff*/
   }
 
   html[dir="ltr"] {
@@ -80,8 +68,8 @@ a {
   font-style: normal;
   font-weight: bold;
   src: url("/fonts/woff/iranyekanwebbold.woff") format("woff"),
-    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
-    url("/fonts/ttf/iranyekanwebbold.ttf") format("truetype");
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url("/fonts/ttf/iranyekanwebbold.ttf")
+      format("truetype");
   font-display: swap;
 }
 
@@ -90,8 +78,8 @@ a {
   font-style: normal;
   font-weight: 100;
   src: url("/fonts/woff/iranyekanwebthin.woff") format("woff"),
-    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
-    url("/fonts/ttf/iranyekanwebthin.ttf") format("truetype");
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url("/fonts/ttf/iranyekanwebthin.ttf")
+      format("truetype");
   font-display: swap;
 }
 
@@ -100,8 +88,8 @@ a {
   font-style: normal;
   font-weight: 300;
   src: url("/fonts/woff/iranyekanweblight.woff") format("woff"),
-    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
-    url("/fonts/ttf/iranyekanweblight.ttf") format("truetype");
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url("/fonts/ttf/iranyekanweblight.ttf")
+      format("truetype");
   font-display: swap;
 }
 
@@ -111,7 +99,7 @@ a {
   font-weight: normal;
   src: url("/fonts/woff/iranyekanwebregular.woff") format("woff"),
     /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
-    url("/fonts/ttf/iranyekanwebregular.ttf") format("truetype");
+      url("/fonts/ttf/iranyekanwebregular.ttf") format("truetype");
   font-display: swap;
 }
 
@@ -120,8 +108,8 @@ a {
   font-style: normal;
   font-weight: 500;
   src: url("/fonts/woff/iranyekanwebmedium.woff") format("woff"),
-    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
-    url("/fonts/ttf/iranyekanwebmedium.ttf") format("truetype");
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url("/fonts/ttf/iranyekanwebmedium.ttf")
+      format("truetype");
   font-display: swap;
 }
 
@@ -131,7 +119,7 @@ a {
   font-weight: 800;
   src: url("/fonts/woff/iranyekanwebextrabold.woff") format("woff"),
     /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
-    url("/fonts/ttf/iranyekanwebextrabold.ttf") format("truetype");
+      url("/fonts/ttf/iranyekanwebextrabold.ttf") format("truetype");
   font-display: swap;
 }
 
@@ -140,8 +128,8 @@ a {
   font-style: normal;
   font-weight: 850;
   src: url("/fonts/woff/iranyekanwebblack.woff") format("woff"),
-    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
-    url("/fonts/ttf/iranyekanwebblack.ttf") format("truetype");
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url("/fonts/ttf/iranyekanwebblack.ttf")
+      format("truetype");
   font-display: swap;
 }
 
@@ -151,7 +139,7 @@ a {
   font-weight: 900;
   src: url("/fonts/woff/iranyekanwebextrablack.woff") format("woff"),
     /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
-    url("/fonts/ttf/iranyekanwebextrablack.ttf") format("truetype");
+      url("/fonts/ttf/iranyekanwebextrablack.ttf") format("truetype");
   font-display: swap;
 }
 
@@ -174,7 +162,6 @@ a {
   .slick-dots li button:before {
     font-size: 12px;
   }
-
   .slick-dots {
     padding-bottom: 40px !important;
   }

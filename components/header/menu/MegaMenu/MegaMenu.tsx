@@ -26,7 +26,39 @@ function MegaMenu() {
       className="flex items-center"
       onMouseOver={showMegaHandler}
       onMouseOut={closeMegaMenuHandler}
-    ></div>
+    >
+      <div className="flex items-center font-bold cursor-pointer">
+        <GoGrabber style={{ fontSize: "2rem" }} />
+        <h3 className="ltr:ml-1 rtl:mr-1">{t.CategoryOfGoods}</h3>
+      </div>
+      <Transition
+        nodeRef={nodeRef}
+        in={isMegaMenuOpen!}
+        timeout={300}
+        mountOnEnter
+        unmountOnExit
+      >
+        {(state) => {
+          return (
+            <div ref={nodeRef} className="z-[100]">
+              <div
+                className={`fixed top-[8.2rem] inset-0 bg-gray-600/60 ${
+                  state === "entering"
+                    ? "animate-fadeEntering"
+                    : state === "entered"
+                    ? "opacity-100"
+                    : "animate-fadeExit"
+                }`}
+                onClick={closeMegaMenuHandler}
+              ></div>
+              <div className="absolute top-full left-0 right-0 bg-palette-card z-[110] shadow-md rounded-br-lg rounded-bl-lg">
+                <MenusContainer />
+              </div>
+            </div>
+          );
+        }}
+      </Transition>
+    </div>
   );
 }
 

@@ -5,7 +5,7 @@ import { useLanguage } from "@/hooks/useLanguage";
 const SearchBar = () => {
   const { t } = useLanguage();
   return (
-    <div className="max-w-[50rem] w-full md:w-[90%] px-4 md:ltr:ml-4 md:rtl:mr-4  rounded-lg bg-slate-800 flex items-center flex-grow">
+    <div className="max-w-[50rem] w-full md:w-[90%] ml-2 mr-2 px-4 md:ltr:ml-4 md:rtl:mr-4 bg-slate-600/10  rounded-lg dark:bg-slate-800 flex items-center flex-grow">
       <GoSearch style={{ color: "rbg(156 163 175)" }} />
       <input
         type="search"

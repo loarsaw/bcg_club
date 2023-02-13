@@ -9,7 +9,7 @@ const Logo = () => {
         <Image
           src="/images/logo.png"
           alt="shop"
-          width={120}
+          width={90}
           height={35}
           // objectFit="contain"
           style={{ objectFit: "contain" }}

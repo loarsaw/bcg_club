@@ -15,9 +15,11 @@ const Layout: FC<{ children?: React.ReactNode }> = ({ children }) => {
         <Head>
           <title>Gamerzzzzz</title>
         </Head>
-        <NextNProgress height={7} />
-        <Header />
-        <main className="flex-grow md:mt-40">{children}</main>
+        <div className="flex flex-col min-h-[100vh]">
+          <NextNProgress height={7} />
+          <Header />
+          <main className="flex-grow md:mt-40 ">{children}</main>
+        </div>
       </ThemeProvider>
     </Provider>
   );

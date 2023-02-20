@@ -6,6 +6,7 @@ import Head from "next/head";
 import Header from "../header";
 import { Provider } from "react-redux";
 import store from "@/store";
+import Footer from "../Footer";
 const Layout: FC<{ children?: React.ReactNode }> = ({ children }) => {
   const { locale } = useLanguage();
 
@@ -19,6 +20,7 @@ const Layout: FC<{ children?: React.ReactNode }> = ({ children }) => {
           <NextNProgress height={7} />
           <Header />
           <main className="flex-grow md:mt-40 ">{children}</main>
+          <Footer/>
         </div>
       </ThemeProvider>
     </Provider>

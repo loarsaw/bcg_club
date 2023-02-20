@@ -13,7 +13,7 @@ const index = (props: Props) => {
       <div className="flex flex-col md:px-4 mb-2">
         <div className="flex items-center justify-between md:order-2 md:mt-2 relative">
           <Menu />
-          <div className="md:hidden">
+          <div className="md:hidden mb-3">
             <Logo />
           </div>
           <Settings />
